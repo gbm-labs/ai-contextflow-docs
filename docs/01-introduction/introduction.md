@@ -37,7 +37,7 @@ slug: /
   </p>
 </div>
 
-**AI contextFlow** is a proposal for disciplined AI engineering. It is not a rigid product, but an agnostic framework that you can activate to bring structure to Gen-AI chaos in your software projects. Once it is active, the AI assistent will guide you to keep mental load on a minimum level while improving your software quality and coding process significantely. 
+**AI contextFlow** is a proposal for disciplined AI engineering. It is not a rigid product, but an agnostic framework that you can activate to bring structure to Gen-AI chaos in your software projects. Once active, the AI assistant guides you to keep mental load to a minimum while significantly improving your software quality and process predictability.
 
 It helps you maintain ownership of your codebase by ensuring that your AI assistant (Cursor, Copilot, Windsurf) respects your architecture and product intent - even weeks into a project. 
 
@@ -136,7 +136,7 @@ Go to [Getting Started](../02-getting-started/index.md) to set up your repositor
 
 ## This is an Invitation (Not a Dogma)
 
-I am not a "Guru". I am just an engineer who got tired of debugging AI hallucinations.
+I am not a "Guru". I am simply an engineer who got tired of debugging AI hallucinations.
 
 This system represents my personal "Operating System" for surviving the AI age. It works for me. It gives me peace of mind that my codebase won't collapse under its own weight after three sprints.
 
