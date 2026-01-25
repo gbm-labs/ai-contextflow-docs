@@ -113,7 +113,7 @@ const config = {
               <a href="/imprint" class="footer-link-imprint" style="color: inherit; text-decoration: none;">Imprint</a>
             </div>
             <div class="footer-line-secondary">
-              Created by <a href="mailto:joscha.gbm@gmail.com" class="footer-author">Joscha Griesbaum (gbm-labs)</a>
+              Copyright © ${new Date().getFullYear()} Joscha Griesbaum. Built with Docusaurus.
             </div>
           </div>
         `,
