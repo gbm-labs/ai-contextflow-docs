@@ -37,7 +37,7 @@ slug: /
   </p>
 </div>
 
-**AI contextFlow** is a proposal for disciplined AI engineering. It is not a rigid product, but an agnostic framework that you can activate to bring structure to Gen-AI chaos in your software projects. 
+**AI contextFlow** is a proposal for disciplined AI engineering. It is not a rigid product, but an agnostic framework that you can activate to bring structure to Gen-AI chaos in your software projects. Once it is active, the AI assistent will guide you to keep mental load on a minimum level while improving your software quality and coding process significantely. 
 
 It helps you maintain ownership of your codebase by ensuring that your AI assistant (Cursor, Copilot, Windsurf) respects your architecture and product intent - even weeks into a project. 
 
