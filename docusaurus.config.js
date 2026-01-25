@@ -106,6 +106,8 @@ const config = {
                 ✨ Get Updates & Insiders
               </a>
               <span class="footer-sep">·</span>
+              <a href="https://github.com/gbm-labs/ai-contextflow" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">GitHub</a>
+              <span class="footer-sep">·</span>
               <span class="footer-license">MIT License</span>
               <span class="footer-sep">·</span>
               <a href="/imprint" class="footer-link-imprint" style="color: inherit; text-decoration: none;">Imprint</a>
