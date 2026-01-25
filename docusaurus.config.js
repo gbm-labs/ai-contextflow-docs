@@ -87,7 +87,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'pathname:///files/ai-contextFlow-kit.zip',
+            href: 'https://github.com/gbm-labs/ai-contextflow/archive/refs/heads/main.zip',
             label: 'Download Kit',
             position: 'right',
             className: 'button button--primary navbar-cta-button',
