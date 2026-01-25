@@ -46,7 +46,18 @@ The system manages the complexity for you.
 
 ## Step 2 — Agnostic Initialization
 
-You don't need to write the `project-brief.md` manually if you don't want to.
+You don't need to write the `project-brief.md` manually. **The AI interviews you.**
+
+Open your AI Chat (Command+L in Cursor) and simply say:
+
+> "Hi, I want to start a new project."
+
+The `.cursorrules` file will trigger the **Solution Architect** role.
+1.  It will check if `docs/project-brief.md` is empty.
+2.  It will ask you questions about your Goal, Tech Stack, and Users.
+3.  **It will write the file for you.**
+
+Once the Brief is set, the AI "knows" what you are building. It will never hallucinate a different tech stack or feature set again.
 
 1.  Open your AI Editor (Cursor, Windsurf, Copilot).
 2.  Add `.cursorrules` to the chat context.

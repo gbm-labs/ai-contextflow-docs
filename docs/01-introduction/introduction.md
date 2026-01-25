@@ -43,6 +43,10 @@ It helps you maintain ownership of your codebase by ensuring that your AI assist
 
 > **"Context Awareness is what keeps AI aligned over time."**
 
+:::tip Magic Moment
+**Don't worry about writing documentation manually.** The AI acts as your scribe, interviewing you to generate the necessary context files (Project Brief, Specs) automatically before writing a single line of code.
+:::
+
 ## The Reality Check: Why "Magic" Breaks
 
 Building software with AI feels magical at first. It’s like **"Vibe Coding"** (a la Lovable/v0) - fast, visual, and impressive.
