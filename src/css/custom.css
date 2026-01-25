@@ -1,0 +1,201 @@
+/**
+ * Dark Mode Tweaks
+ */
+[data-theme='dark'] {
+  --ifm-background-color: #121212;
+  --ifm-card-background-color: #1e1e1e;
+  --ifm-color-primary: #00BBFF;
+  --doc-sidebar-width: 280px !important;
+}
+
+/* Layout: Reduce empty space on the left / make content wider */
+:root {
+  --ifm-container-width: 100%; /* Allows content to take full width */
+  --ifm-color-primary: #00BBFF; /* Explicitly set for Light Mode too */
+}
+
+.container {
+  max-width: 1600px; /* Limits it on huge screens, but wider than default */
+  margin-left: 0; /* Align more to the left */
+  margin-right: auto;
+  padding-left: 2rem; /* Keep a little distance from sidebar */
+}
+
+[data-theme='dark'] .markdown code {
+  background-color: #2d333b;
+  border: 1px solid #444c56;
+}
+
+.menu__link--active {
+  font-weight: 700;
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+/* Slimmer Footer & Alignment */
+.footer {
+  background-color: #0F1115 !important;
+  border-top: 1px solid #2A2A2A;
+  padding: 0.6rem 0;
+  
+  /* Fixed Bottom Bar Style */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  height: auto;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+  font-family: var(--ifm-font-family-base);
+}
+
+.footer__copyright {
+  margin: 0;
+}
+
+/* Footer Content Styling */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  font-size: 0.85rem;
+  color: #8B949E;
+}
+
+.footer-line {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-sep {
+  opacity: 0.3;
+}
+
+.footer-link-updates {
+  color: #E2E8F0;
+  font-weight: 600;
+  background: rgba(255,255,255,0.1);
+  padding: 3px 10px;
+  border-radius: 99px; /* Pill shape */
+  transition: all 0.2s ease;
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.footer-link-updates:hover {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.footer-author {
+  color: #8B949E;
+  text-decoration: none;
+}
+.footer-author:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: underline;
+}
+
+.footer-line-secondary {
+ font-size: 0.75rem;
+ opacity: 0.7;
+ margin-top: 2px;
+}
+
+/* Fix: Add Space at bottom of page so fixed footer doesn't overlap content */
+.main-wrapper {
+  padding-bottom: 120px;
+}
+
+/* Ensure content is not hidden behind the fixed footer */
+#__docusaurus > div[id^="skip-to-content"] {
+  margin-bottom: 50px;
+}
+
+.footer__bottom,
+.footer__copyright {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  max-width: 100%;
+  line-height: 1.2;
+}
+
+/* Ensure the container inside footer doesn't constrain width too much if it exists */
+.footer .container {
+  max-width: 100%;
+  padding: 0;
+}
+
+/* --- Search Bar Styling --- */
+
+/* Base style for the search input */
+.navbar__search-input {
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0.05); /* Slight tint */
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px; /* Softer rounded corners */
+  color: var(--ifm-font-color-base);
+  height: 2.25rem;
+  padding-left: 2.5rem; /* Space for icon */
+  width: 14rem; /* Wider by default */
+  transition: all 0.2s ease-in-out;
+}
+
+/* Dark mode specific: Fix black icon by using a lighter SVG URL */
+[data-theme='dark'] .navbar__search-input {
+  background-color: rgba(255, 255, 255, 0.05);
+  /* Replaces the black icon with a light grey/white one */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23eeeeee" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0l.82353-.82353A.87358.87358,0,0,0,15.7214,14.42317Z"/></svg>');
+}
+
+/* Hover & Focus states */
+.navbar__search-input:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.navbar__search-input:focus {
+  background-color: var(--ifm-background-color);
+  border-color: var(--ifm-color-primary);
+  width: 18rem; /* Expands when typing */
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 187, 255, 0.3); /* Soft glow match new primary blue #00BBFF */
+}
+
+/* Adjust the shortcut key hint visibility */
+.navbar__search-input::placeholder {
+  color: var(--ifm-color-emphasis-500);
+}
+
+/* Navbar CTA Button */
+.navbar-cta-button {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 1rem; /* More space between button and theme switch */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Force Primary Button Styles to match content buttons exactly */
+  background-color: var(--ifm-color-primary) !important;
+  color: #fff !important; /* Force white text */
+  border: none !important;
+  padding: 0.5rem 1.25rem; /* Standard button padding */
+  border-radius: var(--ifm-button-border-radius, 4px);
+  line-height: 1.2;
+}
+
+.navbar-cta-button:hover {
+  background-color: var(--ifm-color-primary-darker) !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
