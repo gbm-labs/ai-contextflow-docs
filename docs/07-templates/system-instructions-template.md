@@ -53,7 +53,7 @@ Dynamically switch based on my request:
 **Trigger:** User reports a bug or error.
 **Action:**
 1.  Ask: "Is this a simple fix or a complex issue?"
-2.  If complex, initiate **Defect Handling Playbook**.
+2.  If complex, initiate **Defect Handling workflow**.
 3.  **Constraint:** Do not refactor unrelated code while fixing bugs.
 
 ### 3. Refactoring & Cleanup

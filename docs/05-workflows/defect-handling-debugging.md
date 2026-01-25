@@ -3,12 +3,12 @@ sidebar_position: 2
 title: Defect Handling & Debugging
 ---
 
-# Defect Handling & Debugging Playbook
+# Defect Handling & Debugging workflow
 
 ## Purpose
-This playbook defines a **repeatable process** for handling defects and debugging issues in a controlled, evidence-driven way.
+This workflow defines a **repeatable process** for handling defects and debugging issues in a controlled, evidence-driven way.
 
-In AI-assisted development, debugging can easily become chaotic (trial-and-error changes, speculative fixes, untracked regressions). This playbook prevents that by enforcing discipline.
+In AI-assisted development, debugging can easily become chaotic (trial-and-error changes, speculative fixes, untracked regressions). This workflow prevents that by enforcing discipline.
 
 ### 🛡️ The "Stop Loss" Rule for AIs
 **Strict Rule:** If the AI has tried to fix the **same bug 3 times** without success:
@@ -29,14 +29,14 @@ graph TD
 ```
 
 ## Scope
-This playbook applies to:
+This workflow applies to:
 - Production bugs
 - Test failures
 - Regressions
 - Unexpected behavior discovered during development
 
 :::info
-It does **not** replace incident response for large outages (see Incident Response Playbook).
+It does **not** replace incident response for large outages (see Incident Response workflow).
 :::
 
 ---
@@ -200,7 +200,7 @@ Act as a QA Engineer.
 Context:
 - Defect description and evidence (logs, steps, stack trace)
 - Definition of Done
-- This Defect Handling Playbook
+- This Defect Handling workflow
 
 Task:
 Guide me through triage, reproduction, hypothesis formation, and root cause isolation.
@@ -227,6 +227,6 @@ Rules:
 
 ## Status
 
-This playbook is intentionally conservative.
+This workflow is intentionally conservative.
 
 It reduces time-to-fix by preventing chaos and regression cycles.

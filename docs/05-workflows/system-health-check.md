@@ -1,12 +1,12 @@
 ---
-title: System Health Check Playbook
+title: System Health Check workflow
 sidebar_position: 4
 ---
 
-# System Health Check Playbook
+# System Health Check workflow
 
 ## Purpose
-This playbook defines a **structured, repeatable health check** for an existing codebase.
+This workflow defines a **structured, repeatable health check** for an existing codebase.
 
 Its goal is to assess whether the system remains:
 - understandable
@@ -175,8 +175,8 @@ Include:
 
 Based on findings, decide whether to:
 - proceed with feature development
-- schedule refactoring (use **[Refactoring Playbook](refactoring.md)**)
-- address defects (use **[Defect Handling Playbook](defect-handling-debugging.md)**)
+- schedule refactoring (use **[Refactoring workflow](refactoring.md)**)
+- address defects (use **[Defect Handling workflow](defect-handling-debugging.md)**)
 - improve tests, documentation, or standards adherence
 
 ---
@@ -193,7 +193,7 @@ Context:
 - Applicable Standards
 
 Task:
-Perform a structured system health check following the Health Check Playbook.
+Perform a structured system health check following the Health Check workflow.
 Summarize findings and risks.
 Do not propose changes yet.
 ```

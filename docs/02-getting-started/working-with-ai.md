@@ -115,7 +115,7 @@ Act as a Requirements Engineer.
 
 Context:
 - Project Brief
-- Feature Development Playbook
+- Feature Development workflow
 - Definition of Done
 - Existing feature file
 
@@ -216,7 +216,7 @@ Act as a QA Engineer.
 
 Context:
 - Current codebase
-- Health Check Playbook
+- Health Check workflow
 - Definition of Done
 
 Task:

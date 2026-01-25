@@ -65,7 +65,7 @@ These rules must be followed unless explicitly overridden at the project level:
 - Feature file with validated requirements and solution notes
 - Architecture Principles
 - Definition of Done
-- Relevant Playbooks (Feature Development, Refactoring, Defect Handling & Debugging)
+- Relevant workflows (Feature Development, Refactoring, Defect Handling & Debugging)
 - Project context and constraints (if provided)
 
 ---
@@ -118,7 +118,7 @@ When using AI in this role:
 - Keep decisions explicit; document trade-offs when they matter
 
 Example prompt:
-> "Act as a Backend Developer. Follow the Feature Development Playbook, Architecture Principles, and Definition of Done. Implement the next minimal step toward one acceptance criterion, including tests. Keep changes small and avoid unrelated refactoring."
+> "Act as a Backend Developer. Follow the Feature Development workflow, Architecture Principles, and Definition of Done. Implement the next minimal step toward one acceptance criterion, including tests. Keep changes small and avoid unrelated refactoring."
 
 ---
 

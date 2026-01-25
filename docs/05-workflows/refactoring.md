@@ -3,12 +3,12 @@ sidebar_position: 3
 title: Refactoring
 ---
 
-# Refactoring Playbook
+# Refactoring workflow
 
 ## Purpose
-This playbook defines a **safe, repeatable refactoring process** that preserves behavior while improving structure.
+This workflow defines a **safe, repeatable refactoring process** that preserves behavior while improving structure.
 
-In AI-assisted development, refactoring is high-risk because large automated edits can introduce subtle regressions and architectural drift. This playbook reduces that risk through explicit planning, safety nets, and incremental execution.
+In AI-assisted development, refactoring is high-risk because large automated edits can introduce subtle regressions and architectural drift. This workflow reduces that risk through explicit planning, safety nets, and incremental execution.
 
 ### Phase 0: Prerequisite Check
 **Strict Rule:** If **NO tests** exist for the target code:
@@ -28,7 +28,7 @@ graph TD
 ```
 
 ## Scope
-This playbook applies to:
+This workflow applies to:
 - Structural improvements (module boundaries, naming, extraction)
 - Simplification and maintainability work
 - Dependency cleanup

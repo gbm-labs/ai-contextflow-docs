@@ -1,9 +1,9 @@
 ---
-title: Guided Workflows (Playbooks)
+title: Guided Workflows (workflows)
 sidebar_label: Guided Workflows
 ---
 
-# Guided Workflows (Playbooks)
+# Guided Workflows (workflows)
 
 Standard procedures for common engineering activities.
 

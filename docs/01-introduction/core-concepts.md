@@ -109,7 +109,7 @@ If AI produces inconsistent results, it usually means something important was **
 
 ## 5. Why This Is Not Overhead
 
-Creating artifacts and following playbooks may feel slower at first.
+Creating artifacts and following workflows may feel slower at first.
 
 In practice, it:
 1.  Reduces rework.

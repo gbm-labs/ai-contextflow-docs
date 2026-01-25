@@ -3,11 +3,11 @@ sidebar_position: 1
 title: Feature Development
 ---
 
-# Feature Development Playbook
+# Feature Development workflow
 
 :::tip The Golden Rule
-This playbook describes the **Theory**. The **Practice** happens in `docs/active-feature.md`.
-Use this playbook to understand *how* to fill out that file.
+This workflow describes the **Theory**. The **Practice** happens in `docs/active-feature.md`.
+Use this workflow to understand *how* to fill out that file.
 :::
 
 ## 🚦 The Process (Simplified)
@@ -181,7 +181,7 @@ Context:
 - Definition of Done
 
 Task:
-Follow the Feature Development Playbook.
+Follow the Feature Development workflow.
 [Insert specific phase goal, e.g., "Draft the Feature Description" or "Propose a Solution Design"].
 
 Rules:
@@ -205,7 +205,7 @@ Rules:
 
 ## Authority
 
-All feature work must follow this playbook.
+All feature work must follow this workflow.
 
 If any phase is skipped, the resulting work is considered incomplete.
 
@@ -213,4 +213,4 @@ If any phase is skipped, the resulting work is considered incomplete.
 
 ## Status
 
-This playbook prioritizes correctness, clarity, and long-term maintainability over short-term speed.
+This workflow prioritizes correctness, clarity, and long-term maintainability over short-term speed.

@@ -71,7 +71,7 @@ These rules must be followed unless explicitly overridden at the project level:
 - Feature file with validated requirements and solution notes
 - Architecture Principles
 - Definition of Done
-- Relevant Playbooks (Feature Development, Refactoring, Defect Handling & Debugging)
+- Relevant workflows (Feature Development, Refactoring, Defect Handling & Debugging)
 - UI standards / design system references (if provided)
 
 ---
@@ -136,7 +136,7 @@ When using AI in this role:
 - Respect UI standards, architectural boundaries, and Definition of Done
 
 Example prompt:
-> "Act as a Frontend Developer. Follow the Feature Development Playbook, UI Standards, Architecture Principles, and Definition of Done. Implement the next minimal step toward one acceptance criterion, including appropriate tests. Keep changes small and avoid unrelated refactoring."
+> "Act as a Frontend Developer. Follow the Feature Development workflow, UI Standards, Architecture Principles, and Definition of Done. Implement the next minimal step toward one acceptance criterion, including appropriate tests. Keep changes small and avoid unrelated refactoring."
 
 ---
 

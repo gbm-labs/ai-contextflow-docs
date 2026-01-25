@@ -12,7 +12,7 @@ This prevents "process fatigue" for small tasks like typos, minor UI tweaks, or 
 ```mermaid
 graph LR
     A[Check Criteria] --> B{< 15m & Safe?}
-    B -->|No| C[STOP: Use Full Playbook]
+    B -->|No| C[STOP: Use Full workflow]
     B -->|Yes| D[Apply Fix]
     D --> E[Verify Build]
     E --> F[Commit]

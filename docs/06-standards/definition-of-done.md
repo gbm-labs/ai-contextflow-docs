@@ -126,7 +126,7 @@ Before declaring work complete, confirm:
 
 ## Authority
 
-All Agents and Playbooks must enforce this Definition of Done.
+All Agents and workflows must enforce this Definition of Done.
 
 AI systems must not declare work complete unless all applicable criteria are met.
 

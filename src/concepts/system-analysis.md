@@ -28,7 +28,7 @@ You asked: *"Is this redundant with Claude Projects?"*
 **Analysis:** Absolutely not. Claude Projects provides the *container* (the slot to upload files). You provide the *content*.
 
 *   **The Problem:** If I open a Claude Project, what do I upload? My messy source code? That consumes tokens and confuses the AI.
-*   **Your Solution:** You upload the **Standards**, **Playbooks**, and **Brief**.
+*   **Your Solution:** You upload the **Standards**, **workflows**, and **Brief**.
 *   **Why it works:** These documents are high-density "instruction sets". They limit the search space for the AI.
 
 ### Critique: The "Last Mile" Gap
@@ -44,7 +44,7 @@ You asked: *"Is this redundant with Claude Projects?"*
 ## 3. The "Red Thread" & UX Critique
 
 ### What is missing?
-The logical structure (Intro -> Basics -> Roles -> Playbooks) is solid. However, the **Application Flow** is slightly theoretical.
+The logical structure (Intro -> Basics -> Roles -> workflows) is solid. However, the **Application Flow** is slightly theoretical.
 
 **Gap 1: The "Day 2" Reality**
 You cover "New Project" well. You cover "Quick Fix" well.
