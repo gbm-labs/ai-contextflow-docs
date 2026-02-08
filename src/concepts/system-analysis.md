@@ -15,7 +15,7 @@ Without a system like this, AI development inevitably leads to **"The Sprawl"**:
 
 **Your Value Proposition is VALID:**
 *   **Lovable / v0:** Optimizes for *Time-to-Hello-World*.
-*   **AI contextFlow:** Optimizes for *Time-to-Maintainable-Production*.
+*   **AI contextFirst:** Optimizes for *Time-to-Maintainable-Production*.
 
 **Verdict:** This is not purely academic. This is what mature engineering teams are currently trying to build manually via huge notion docs or `.cursorrules`. You are productizing the "Governance Layer".
 

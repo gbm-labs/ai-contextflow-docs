@@ -8,7 +8,7 @@ slug: /agents
 
 ## What are Agents? ("Personas")
 
-In the context of the **AI contextFlow Kit**, "Agents" are not autonomous software programs running in the background. Instead, they are **defined roles** (Personas) that you instruct your AI assistant (Copilot, ChatGPT, Claude, etc.) to adopt.
+In the context of the **AI contextFirst Kit**, "Agents" are not autonomous software programs running in the background. Instead, they are **defined roles** (Personas) that you instruct your AI assistant (Copilot, ChatGPT, Claude, etc.) to adopt.
 
 ## Why use explicit roles?
 

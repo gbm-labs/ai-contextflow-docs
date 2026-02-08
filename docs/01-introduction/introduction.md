@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: Home
-title: AI contextFlow
+title: contextFirst
 description: A context-first system that keeps architecture, intent, and product decisions aligned across sessions.
 slug: /
 ---
@@ -16,7 +16,7 @@ slug: /
 }}>
   <img 
     src="/img/new-hero-img.png"
-    alt="AI contextFlow Hero" 
+    alt="contextFirst Hero" 
     style={{
       width: '100%',
       height: 'auto',
@@ -31,13 +31,13 @@ slug: /
   background: 'var(--ifm-background-color-contrast)',
   marginBottom: '2rem'
 }}>
-  <h2 style={{ margin: '0 0 0.5rem 0' }}>About AI contextFlow</h2>
+  <h2 style={{ margin: '0 0 0.5rem 0' }}>About contextFirst</h2>
   <p style={{ margin: 0, fontSize: '1.1rem', opacity: 0.9 }}>
-    A context-first system that keeps architecture, intent, and product decisions aligned across development sessions.
+    A context-first system that keeps architecture, intent, and product decisions aligned across AI development sessions.
   </p>
 </div>
 
-**AI contextFlow** is a proposal for disciplined AI engineering. It is not a rigid product, but an agnostic framework that you can activate to bring structure to Gen-AI chaos in your software projects. Once active, the AI assistant guides you to keep mental load to a minimum while significantly improving your software quality and process predictability.
+**contextFirst** is a proposal for disciplined AI engineering. It is not a rigid product, but an agnostic framework that you can activate to bring structure to Gen-AI chaos in your software projects. Once active, the AI assistant guides you to keep mental load to a minimum while significantly improving your software quality and process predictability.
 
 It helps you maintain ownership of your codebase by ensuring that your AI assistant (Cursor, Copilot, Windsurf) respects your architecture and product intent - even weeks into a project. 
 
@@ -56,7 +56,7 @@ But purely generative coding is **Debt-on-Demand**.
 *   The AI forgets its own decisions from yesterday.
 *   You trade **Construction Time** (fast) for **Debugging Time** (slow).
 
-**If AI is a Ferrari engine, AI contextFlow is the steering wheel.**
+**If AI is a Ferrari engine, contextFirst is the steering wheel.**
 Without it, adding more power (better models) just means you crash faster.
 
 ## The Missing Piece: Context
@@ -65,7 +65,7 @@ This is not a library or a rigid SaaS product. It is a **methodology** for your 
 
 It creates a "Constitution" that forces the AI to behave like a Senior Engineer rather than an impulsive Junior.
 
-| Comparison | "Vibe Coding" / Chat | AI contextFlow |
+| Comparison | "Vibe Coding" / Chat | contextFirst |
 | :--- | :--- | :--- |
 | **Mindset** | "Generate this for me." | **"Limit the scope to this."** |
 | **Analogy** | A **Freelancer** who ghosts you. | A **Partner** who documents everything. |
@@ -111,7 +111,7 @@ It is opinionated, meaningful, and, I think, most likely a bit anti-hype.
 *   **[The Workflow](../05-workflows/feature-development.md)**: See how an AI Feature Cycle works properly.
 
 :::warning To put this into perspective
-This kit is comprehensive, but you don't need to use everything. Furthermore, the system does not enforce anything automatically (yet). It requires the user's acceptance to follow the suggested steps by the AI contextFlow assistent. 
+This kit is comprehensive, but you don't need to use everything. Furthermore, the system does not enforce anything automatically (yet). It requires the user's acceptance to follow the suggested steps by the contextFirst assistant. 
 :::
 
 **The "Zero to Hero" Path:**
@@ -132,7 +132,7 @@ This kit is comprehensive, but you don't need to use everything. Furthermore, th
 
 ## Ready to start?
 
-Go to [Getting Started](../02-getting-started/index.md) to set up your repository in 2 minutes. The AI contextFlow system will guide you from there on. 
+Go to [Getting Started](../02-getting-started/index.md) to set up your repository in 2 minutes. The contextFirst system will guide you from there on. 
 
 
 

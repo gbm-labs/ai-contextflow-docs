@@ -6,7 +6,7 @@ title: Architecture Principles
 # Architecture Principles
 
 ## Purpose
-This document defines the **non-negotiable architectural principles** for projects using AI contextFlow.
+This document defines the **non-negotiable architectural principles** for projects using contextFirst.
 
 It exists to prevent architectural drift, uncontrolled coupling, and short-term implementation decisions that degrade long-term maintainability.
 

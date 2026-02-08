@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Quickstart
 
-*The rigorous way to fail-proof software development with AI contextFlow.*
+*The rigorous way to fail-proof software development with contextFirst.*
 
 :::tip The "Zero-Learning" Workflow
 You do not need to memorize these docs. The system guides you.
@@ -28,7 +28,7 @@ The system manages the complexity for you.
 }}>
   <img 
     src="/img/exampleFlow.png" 
-    alt="AI contextFlow Workflow" 
+    alt="contextFirst Workflow" 
     style={{
       width: '100%',
       height: 'auto',

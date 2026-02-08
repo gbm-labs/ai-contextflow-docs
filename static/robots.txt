@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ai-contextFlow.com/sitemap.xml
+Sitemap: https://contextfirst.dev/sitemap.xml

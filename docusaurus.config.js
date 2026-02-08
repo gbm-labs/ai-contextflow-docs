@@ -4,12 +4,12 @@ const packageJson = require('./package.json');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AI contextFlow',
+  title: 'contextFirst',
   tagline: 'Context-First AI Engineering',
   favicon: 'img/logo.png',
 
   // Setze hier deine Produktions-URL ein
-  url: 'https://ai-contextFlow.com',
+  url: 'https://contextfirst.dev',
   baseUrl: '/',
   trailingSlash: false,
 
@@ -62,11 +62,11 @@ const config = {
     ({
       metadata: [
         {name: 'description', content: 'A context-first system that keeps architecture, intent, and product decisions aligned across sessions.'},
-        {name: 'keywords', content: 'AI contextFlow, context-first, ai engineering, software architecture, llm governance, ai framework'},
-        {name: 'og:title', content: 'AI contextFlow | Context-First AI Engineering'},
+        {name: 'keywords', content: 'contextFirst, context-first, ai engineering, software architecture, llm governance, ai framework'},
+        {name: 'og:title', content: 'contextFirst | Context-First AI Engineering'},
         {name: 'twitter:card', content: 'summary_large_image'},
-        {name: 'og:image', content: 'https://ai-contextFlow.com/img/preview-img.jpg'},
-        {name: 'twitter:image', content: 'https://ai-contextFlow.com/img/preview-img.jpg'},
+        {name: 'og:image', content: 'https://contextfirst.dev/img/preview-img.jpg'},
+        {name: 'twitter:image', content: 'https://contextfirst.dev/img/preview-img.jpg'},
       ],
       image: 'img/preview-img.jpg', // Default Social Card
       colorMode: {
@@ -75,19 +75,19 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'AI contextFlow',
+        title: 'contextFirst',
         logo: {
-          alt: 'AI contextFlow Repo',
+          alt: 'contextFirst Repo',
           src: 'img/logo.png', // Switched to PNG
         },
         items: [
           {
-            href: 'https://github.com/gbm-labs/ai-contextflow',
+            href: 'https://github.com/gbm-labs/ai-contextflow-docs',
             label: 'GitHub',
             position: 'right',
           },
           {
-            href: 'https://github.com/gbm-labs/ai-contextflow/archive/refs/heads/main.zip',
+            href: 'pathname:///files/contextFirst-kit.zip',
             label: 'Download Kit',
             position: 'right',
             className: 'button button--primary navbar-cta-button',
@@ -100,13 +100,13 @@ const config = {
         copyright: `
           <div class="footer-content">
             <div class="footer-line">
-              <span class="footer-version">AI contextFlow v${packageJson.version}</span>
+              <span class="footer-version">contextFirst v${packageJson.version}</span>
               <span class="footer-sep">·</span>
               <a href="https://tally.so/r/pboXNy" target="_blank" rel="noopener noreferrer" class="footer-link-updates">
                 ✨ Get Updates & Insiders
               </a>
               <span class="footer-sep">·</span>
-              <a href="https://github.com/gbm-labs/ai-contextflow" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">GitHub</a>
+              <a href="https://github.com/gbm-labs/ai-contextflow-docs" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">GitHub</a>
               <span class="footer-sep">·</span>
               <span class="footer-license">MIT License</span>
               <span class="footer-sep">·</span>

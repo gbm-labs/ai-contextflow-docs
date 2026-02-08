@@ -66,7 +66,7 @@ If work feels unclear, the solution is usually to **create or update an artifact
 
 ---
 
-## 3. The "AI contextFlow Operating System"
+## 3. The "contextFirst Operating System"
 
 The system separates concerns deliberately to prevent context overload.
 

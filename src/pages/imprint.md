@@ -37,7 +37,7 @@ The linked pages were checked for possible legal violations at the time of linki
 The content and works provided on these pages are subject to German copyright law.
 
 **Open Source License (MIT):**
-Unless otherwise stated, the project "AI contextFlow" (Code and Documentation) is licensed under the **MIT License**. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided that the original copyright notice and permission notice are included.
+Unless otherwise stated, the project "AI contextFirst" (Code and Documentation) is licensed under the **MIT License**. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided that the original copyright notice and permission notice are included.
 
 **Exceptions:**
 Third-party content (e.g., logos, images from external sources) that is not part of the MIT-licensed code is marked as such and remains the intellectual property of the respective owners.

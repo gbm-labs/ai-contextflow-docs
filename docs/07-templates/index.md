@@ -6,11 +6,11 @@ These templates ensure you don't start from a blank page. They force you to thin
 
 ## Quick Download
 
-Get the full **AI contextFlow Kit** (Templates + Knowledge Base) to use offline or directly in your codebase.
+Get the full **contextFirst Kit** (Templates + Knowledge Base) to use offline or directly in your codebase.
 
 <br />
-<a className="button button--primary button--lg" href="https://github.com/gbm-labs/ai-contextflow/archive/refs/heads/main.zip" style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 'fit-content', fontWeight: 'bold', textDecoration: 'none' }}>
-  Download AI contextFlow (.zip)
+<a className="button button--primary button--lg" href="pathname:///files/contextFirst-kit.zip" style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 'fit-content', fontWeight: 'bold', textDecoration: 'none' }}>
+  Download contextFirst (.zip)
 </a>
 <br /><br />
 

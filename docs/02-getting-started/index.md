@@ -14,7 +14,7 @@ This kit gives you the methodology (Architecture, Process, Guardrails) to *scale
 You need the first to launch a prototype. You need the **AI ConctextFlow Kit** to survive production.
 :::
 
-This section guides you through setting up your environment and your first project with the AI contextFlow Operating System.
+This section guides you through setting up your environment and your first project with the AI contextFirst Operating System.
 
 ## Contents
 

@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Working with AI (Prompt Patterns)
 
-This page provides **practical, copyable prompt patterns** for working with AI within the AI contextFlow Kit.
+This page provides **practical, copyable prompt patterns** for working with AI within the AI contextFirst Kit.
 
 :::tip The "Guided Mode"
 If you are using the **`.cursorrules`** (as recommended in Quickstart), you often **don't need specific prompts**.
