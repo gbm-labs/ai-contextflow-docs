@@ -82,7 +82,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/gbm-labs/ai-contextflow-docs',
+            href: 'https://github.com/gbm-labs/ai-contextflow',
             label: 'GitHub',
             position: 'right',
           },
@@ -106,7 +106,7 @@ const config = {
                 ✨ Get Updates & Insiders
               </a>
               <span class="footer-sep">·</span>
-              <a href="https://github.com/gbm-labs/ai-contextflow-docs" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">GitHub</a>
+              <a href="https://github.com/gbm-labs/ai-contextflow" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">GitHub</a>
               <span class="footer-sep">·</span>
               <span class="footer-license">MIT License</span>
               <span class="footer-sep">·</span>
